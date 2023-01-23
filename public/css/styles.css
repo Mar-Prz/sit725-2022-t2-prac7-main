@@ -1,0 +1,51 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: 'Gluten', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(28, 158, 209); 
+    height: 100vh;
+}
+
+.navbar-size {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(10, 98, 133);
+}
+
+.user-image-size {
+    height: 56px;
+    width: 56px;
+    margin: 4px 0;
+    margin-left: 10px;
+}
+.main-body {
+    background-color: rgb(28, 158, 209);
+    color: white;
+    height: calc(100vh - 64px);
+}
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+.click-me-button {
+    background-color: #EE6E73;
+    margin-top: 50px;
+}
+
+.title-cars {
+    justify-content: center;
+    text-align: center;
+}
+
+.flow-text {
+    margin-bottom: 50px;
+}
+
+#clickMeButton {
+    margin-bottom: 30px;
+}
+
